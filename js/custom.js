@@ -36,11 +36,11 @@
         //  Count Down JS
         // -----------------------------
         $('.timer').syotimer({
-            year: 2020,
-            month: 12,
-            day: 9,
-            hour: 20,
-            minute: 30
+            year: 2022,
+            month: 1,
+            day: 1,
+            hour: 0,
+            minute: 0
         });
         // -----------------------------
         // To Top Init
