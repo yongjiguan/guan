@@ -1,30 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+	<head>
 
-  <!-- SITE TITTLE -->
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Eventre</title>
-  
-  <!-- PLUGINS CSS STYLE -->
-  <!-- Bootstrap -->
-  <link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Font Awesome -->
-  <link href="plugins/font-awsome/css/font-awesome.min.css" rel="stylesheet">
-  <!-- Magnific Popup -->
-  <link href="plugins/magnific-popup/magnific-popup.css" rel="stylesheet">
-  <!-- Slick Carousel -->
-  <link href="plugins/slick/slick.css" rel="stylesheet">
-  <link href="plugins/slick/slick-theme.css" rel="stylesheet">
-  <!-- CUSTOM CSS -->
-  <link href="css/style.css" rel="stylesheet">
-
-  <!-- FAVICON -->
-  <link href="images/favicon.png" rel="shortcut icon">
-
-</head>
+		<!-- SITE TITTLE -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Eventre</title>
+		
+		<!-- PLUGINS CSS STYLE -->
+		<!-- Bootstrap -->
+		<link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<!-- Font Awesome -->
+		<link href="plugins/font-awsome/css/font-awesome.min.css" rel="stylesheet">
+		<!-- Academicons -->
+		<link href="plugins/academicons/css/academicons.min.css" rel="stylesheet">
+		<!-- Magnific Popup -->
+		<link href="plugins/magnific-popup/magnific-popup.css" rel="stylesheet">
+		<!-- Slick Carousel -->
+		<link href="plugins/slick/slick.css" rel="stylesheet">
+		<link href="plugins/slick/slick-theme.css" rel="stylesheet">
+		<!-- Leaflet -->
+		<link rel="stylesheet" href="plugins/leaflet/leaflet.css"/>
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="crossorigin=""/>
+		<!-- CUSTOM CSS -->
+		<link href="css/style.css" rel="stylesheet">
+	  
+		<!-- FAVICON -->
+		<link href="images/logo/logo.png" rel="shortcut icon">
+	  
+	</head>
 
 <body class="body-wrapper">
 
@@ -259,75 +264,48 @@
 <!--====  End of Call to Action Subscribe  ====-->
 
 <!--================================
-=            Google Map            =
+=         OpenStreet Map           =
 =================================-->
 
 <section class="map">
-	<!-- Google Map -->
-	<div id="map"></div>
+	<!-- OpenStreet Map -->
+	<div id="map">
+		<iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=103.8549104332924%2C36.04836379994079%2C103.85732710361482%2C36.04982760558278&amp;layer=mapnik&amp;marker=36.04909570616429%2C103.8561187684536"></iframe>
+	</div>
 	<div class="address-block">
-		<h4>Docklands Convention</h4>
+		<h4>Feiyun Building</h4>
 		<ul class="address-list p-0 m-0">
-			<li><i class="fa fa-home"></i><span>Street Address, Location, <br>City, Country.</span></li>
-			<li><i class="fa fa-phone"></i><span>[00] 000 000 000</span></li>
+			<li><i class="fa fa-envelope"></i><span>guanyj16@lzu.edu.cn</span></li>
+			<li><i class="fa fa-phone"></i><span>+86-188****3920</span></li>
+			<li><i class="fa fa-map-marker"></i><span>222 South Tianshui Road, Lanzhou 730000, Gansu, China.</span></li>
+			<li><i class="fa fa-clock-o"></i><span>Weekday 09:00 to 12:00 and 14:00 to 18:00</span></li>
 		</ul>
-		<a href="#" class="btn btn-white-md">Get Direction</a>
+		<a href="https://www.openstreetmap.org/?mlat=36.04910&amp;mlon=103.85612#map=19/36.04910/103.85612&amp;layers=N" class="btn btn-white-md">Get Direction</a>
 	</div>
 </section>
 
-<!--====  End of Google Map  ====-->
+<!--=== End of OpenStreet Map ===-->
 
 <!--============================
 =            Footer            =
 =============================-->
 
-<footer class="footer-main">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="block text-center">
-            <div class="footer-logo">
-              <img src="images/footer-logo.png" alt="logo" class="img-fluid">
-            </div>
-            <ul class="social-links-footer list-inline">
-              <li class="list-inline-item">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#"><i class="fa fa-twitter"></i></a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#"><i class="fa fa-instagram"></i></a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#"><i class="fa fa-rss"></i></a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#"><i class="fa fa-vimeo"></i></a>
-              </li>
-            </ul>
-          </div>
-          
-        </div>
-      </div>
-    </div>
-</footer>
-<!-- Subfooter -->
 <footer class="subfooter">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 align-self-center">
-        <div class="copyright-text">
-          <p><a href="#">Eventre</a> &#169; 2017 All Right Reserved</p>
-        </div>
-      </div>
-      <div class="col-md-6">
-          <a href="#" class="to-top"><i class="fa fa-angle-up"></i></a>
-      </div>
-    </div>
-  </div>
+	<div class="container">
+	  <div class="row">
+		<div class="col-md-6 align-self-center">
+		  <div class="copyright-text">
+			<p><a href="#">LZU-ISE@Guan-Group</a> &#169; 2021 All Right Reserved.</p>
+		  </div>
+		</div>
+		<div class="col-md-6">
+			<a href="#" class="to-top"><i class="fa fa-angle-up"></i></a>
+		</div>
+	  </div>
+	</div>
 </footer>
 
+<!--====  End of Footer  ====-->
 
   <!-- JAVASCRIPTS -->
   <!-- jQuey -->
@@ -346,9 +324,9 @@
   <script src="plugins/slick/slick.min.js"></script>  
   <!-- SyoTimer -->
   <script src="plugins/syotimer/jquery.syotimer.min.js"></script>
-  <!-- Google Mapl -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
-  <script type="text/javascript" src="plugins/google-map/gmap.js"></script>
+  <!-- Leaflet -->
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="crossorigin=""></script>
+  <script type="text/javascript" src="plugins/leaflet/leaflet.js"></script>
   <!-- Custom Script -->
   <script src="js/custom.js"></script>
 </body>
