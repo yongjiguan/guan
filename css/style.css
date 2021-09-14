@@ -79,7 +79,7 @@ ul.social-links li a i {
 
 .overlay:before {
   content: '';
-  background: url(../images/background/objects.png) no-repeat;
+  /*background: url(../images/background/objects.png) no-repeat;*/
   position: absolute;
   top: 0;
   left: 0;
@@ -150,7 +150,7 @@ ul.social-links li a i {
 .overlay-dark:before {
   content: '';
   background: -webkit-linear-gradient(-45deg, #1e5799 0%, #1d1546 0%, #1a0b25 100%, #207cca 100%);
-  opacity: .75;
+  opacity: .50;
   position: absolute;
   top: 0;
   left: 0;
@@ -171,8 +171,8 @@ ul.social-links li a i {
 
 .overlay-white-slant:before {
   content: '';
-  width: 100%;
-  margin-left: -45%;
+  width: 0%;
+  margin-left: -65%;
   background: white;
   position: absolute;
   top: 0;
@@ -218,15 +218,15 @@ button:hover {
 }
 
 .bg-banner-one {
-  background: url(../images/background/homepage-one-banner.jpg) no-repeat;
-  background-size: cover;
-  background-position: center center;
+  background: url(../images/background/feiyun.png) no-repeat;
+  background-size: 100%;
+  background-position: top center;
 }
 
 .bg-banner-two {
-  background: url(../images/background/banner-bg-two.jpg) no-repeat;
-  background-size: cover;
-  background-position: right center;
+  background: url(../images/background/feiyun.png) no-repeat;
+  background-size: 100%;
+  background-position: top center;
 }
 
 @media (max-width: 767px) {
@@ -247,7 +247,7 @@ button:hover {
 }
 
 .bg-timer {
-  background: url(../images/background/timer-bg.jpg) no-repeat;
+  background: url(../images/background/playground.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
 }
@@ -291,8 +291,8 @@ button:hover {
 }
 
 .bg-title {
-  background: url(../images/background/page-title-bg.jpg) no-repeat;
-  background-size: cover;
+  background: url(../images/background/road.jpg) no-repeat;
+  background-size: 100% 100%;
   background-position: center center;
 }
 
@@ -947,7 +947,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .banner {
-  padding: 250px 0 150px;
+  padding: 300px 0 100px;
   position: relative;
 }
 
@@ -1015,7 +1015,7 @@ select.form-control:not([size]):not([multiple]) {
 
 .banner .block h1 {
   text-transform: uppercase;
-  font-size: 5.5rem;
+  font-size: 3.0rem;
   color: #0086d1; 
   font-weight: 500;
   margin-bottom: 5px;
@@ -1062,7 +1062,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .banner-two {
-  padding: 250px 0 150px;
+  padding: 300px 0 10px;
   position: relative;
   overflow: hidden;
 }
@@ -1092,7 +1092,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .banner-two .block h3 {
-  font-size: 74px;
+  font-size: 48px;
 }
 
 @media (max-width: 575px) {
